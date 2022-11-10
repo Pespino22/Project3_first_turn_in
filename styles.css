@@ -129,7 +129,7 @@
         z-index: -1;
     }
     .navbar__menu.active {
-        background: black;
+        background: rgb(194, 23, 23);
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -233,6 +233,7 @@
 }
 
 .main__content p { 
+    background-image: linear-gradient(to top, #ff08fb 0%, #60a1a1 100%);
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: 700;
