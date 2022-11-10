@@ -144,7 +144,7 @@
         width: 25px;
         height: 3px;
         margin: 5px auto;
-        transition: all 0.3 ease-in-out;
+      
         background: aliceblue;
     }
     .navbar__item {
@@ -312,7 +312,7 @@
         font-size: 3rem;
     }
     .main__content p {
-        margin-top: 1 rem;
+        margin-top: 1rem;
         font-size: 1.5rem;
     }
 }
