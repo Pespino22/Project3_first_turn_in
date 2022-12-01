@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Espinoza webstite</title>
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&display=swap" rel="stylesheet" />
+        <script src="js/map.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?AIzaSyALXxo3TPmbHKubN73UB6w4EihJAOS9j6c&callback=initMap" async defer></script>
+        <style>
+            #map {
+                height: 100%;
+            }
+            html,
+            body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="navbar__container">
+                    <a href="index.html" id="navbar__logo"> <i class="fas fa-gem"></i>ESPINOZA BUITRON</a>
+                    <div class="navbar__toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="navbar__menu">
+                        <li class="navbar__item">
+                            <a href="index.html" class="navbar__links">Info</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="tech.html" class="navbar__links">Art</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="resume.html" class="navbar__links">Resume</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="map.html" class="navbar__links">Map</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div id="map"></div>
+    </body>
+</html>

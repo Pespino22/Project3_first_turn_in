@@ -436,4 +436,13 @@
 
     
 }
-
+#map{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	right: 20%;
+	top: 6%;
+	margin-top: 10px;
+	border: solid rgb(179, 0, 255) 5px;
+	border-radius: 10px;
+}
